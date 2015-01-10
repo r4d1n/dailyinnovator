@@ -1,0 +1,26 @@
+{{!< default}}
+{{! The above will include this template into the body of the default template }}
+
+{{> page-header}}
+{{! This includes the page-header.hbs partial }}
+
+{{> heroes/page-hero-page}}
+{{! This includes the page-hero-page.hbs partial, used for posts and pages }}
+
+<main id="main" role="main">
+	<div class="container">
+		<div class="row">
+
+			{{> posts/page-full-width}}
+
+			{{! You can load the sidebar template by removing the ! from
+				the line below and adding it to the line above }}
+
+			{{!> posts/page-sidebar}}
+
+		</div>
+	</div>
+</main>
+
+{{> page-footer}}
+{{! This includes the page-footer.hbs partial }}

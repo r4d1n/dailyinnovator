@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{{! Document Settings }}
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="author" content="QBKL, http://themeforest.net/user/QBKL">
+
+		{{! Page Meta }}
+		<title>{{meta_title}}</title>
+		<meta name="description" content="{{meta_description}}">
+
+		<!-- Loading: Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+		<!-- Loading: Bootstrap Stylesheet -->
+		<link href="{{asset "assets/bootstrap/css/bootstrap.min.css"}}" rel="stylesheet">
+
+		<!-- Loading: Font Awesome -->
+		<link href="{{asset "assets/font-awesome/css/font-awesome.min.css"}}" rel="stylesheet">
+
+		<!-- Loading: Custom Styles -->
+		<link href="{{asset "assets/css/style.css"}}" rel="stylesheet">
+		<link href="{{asset "assets/css/color-themes.css"}}" rel="stylesheet">
+
+		<!-- Loading Modenizr -->
+		<script src="{{asset "assets/js/modernizr.min.js"}}"></script>
+
+		<!--[if gte IE 9]>
+		<style type="text/css">
+		.gradient-bg {
+			filter: none;
+		}
+		</style>
+		<![endif]-->
+
+		{{! Ghost head hook }}
+		{{ghost_head}}
+	</head>
+
+	<body class="{{body_class}}">
+		{{! Ghost body hook }}
+		{{{body}}}
+
+		{{! Ghost footer hook }}
+		{{ghost_foot}}
+
+		<!-- Loading: Bootstrap Scripts -->
+		<script src="{{asset "assets/bootstrap/js/bootstrap.min.js"}}"></script>
+
+		<!-- Loading: Plugins -->
+		<script src="{{asset "assets/js/plugins.min.js"}}"></script>
+
+		<!-- Loading: Custom Scripts -->				
+		<script src="{{asset "assets/js/custom.scripts.js"}}"></script>
+	</body>
+</html>

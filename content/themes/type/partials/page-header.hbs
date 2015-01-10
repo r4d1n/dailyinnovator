@@ -1,0 +1,24 @@
+<header id="header">
+	<div class="container">
+		<div id="logo">
+		{{#if @blog.logo}}
+			<a href="{{@blog.url}}" title="{{@blog.title}}"><img src="{{@blog.logo}}" height="40" alt="{{@blog.title}}"></a>
+		{{else}}
+			<a href="{{@blog.url}}" title="{{@blog.title}}">{{@blog.title}}</a>
+		{{/if}}
+		</div>
+
+		<nav id="nav">
+			<ul class="clearfix">
+				<li><a href="{{@blog.url}}">Home</a></li>
+				<li><a href="/about-type/">About</a></li>
+				<li><a href="#">Purchase</a></li>
+			</ul>
+		</nav>
+
+		<nav id="nav-mobile">
+			<a href="#" id="nav-mobile-toggle">Menu</a>
+			<div id="nav-mobile-drop"><!-- Leave empty. Auto-generates from main nav --></div>
+		</nav>
+	</div>
+</header>

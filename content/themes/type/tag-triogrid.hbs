@@ -1,0 +1,23 @@
+{{!< default}}
+{{! The above will include this template into the body of the default template }}
+
+{{> page-header}}
+{{! This includes the page-header.hbs partial }}
+
+{{> heroes/page-hero-tag}}
+{{! This includes the page-hero-tag.hbs partial }}
+
+<main id="main" role="main">
+	<div class="container">
+		<div class="row">
+
+			{{> archives/posts-triogrid}}
+			{{! This includes the page-hero.hbs partial }}
+			{{! Explore more display option by including either 'posts-list-sidebar', 'posts-duogrid' or 'posts-triogrid' }}
+
+		</div>
+	</div>
+</main>
+
+{{> page-footer}}
+{{! This includes the page-footer.hbs partial }}

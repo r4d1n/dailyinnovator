@@ -1,0 +1,16 @@
+<div id="content" class="col-sm-12">
+	<div class="posts trio-grid row">
+
+		{{! Each post will be output using this markup }}
+		{{#foreach posts}}
+
+			{{> posts/post-excerpt}}
+			{{! This includes the post-excerpt.hbs partial }}
+
+		{{/foreach}}
+
+		{{!! After all the posts, we have the previous/next pagination links }}
+		{{pagination}}
+
+	</div>
+</div>
