@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="author" content="QBKL Studio">
+
+		<title>Documentation: TYPE</title>
+
+		<!-- Loading: Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:500,400italic,700italic,700,500italic,400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+		<!-- Loading: Styles -->
+		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+		<link href="assets/js/prettify/prettify.css" rel="stylesheet" type='text/css'>
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+		<link href='assets/css/style.css' rel='stylesheet' type='text/css'>
+
+		<!-- Loading: Owl Carousel -->
+		<link href="assets/js/owl-carousel/owl.carousel.css" rel="stylesheet" type='text/css' media="screen">
+		<link href="assets/js/owl-carousel/owl.transitions.css" rel="stylesheet" type='text/css' media="screen">
+
+		<!-- Loading: Venobox -->
+		<link href="assets/js/venobox/venobox.css" rel="stylesheet" type="text/css" media="screen" />
+	</head>
+
+	<body onload="prettyPrint()" id="top">
+		<!-- Start: Header -->
+		<header id="header">
+			<a href="#" target="blank"><img src="assets/thumb.png" alt="Blink"></a>
+			<h1>TYPE</h1>
+
+			<p>
+				<strong>Version:</strong> 1.0<br>
+				<strong>Released:</strong> 26.11.2014<br>
+				<strong>Updated:</strong> 26.11.2014
+			</p>
+
+			<div class="spacer20"></div>
+
+			<nav>
+				<ul>
+					<li><a href="#installation">1. Installation</a></li>
+					<li><a href="#customization">2. Customization</a>
+						<ul>
+							<li><a href="#color-themes">2.1. Color themes</a></li>
+							<li><a href="#custom-logo">2.2. Custom logo</a></li>
+							<li><a href="#author-info">2.3. Author information</a></li>
+							<li><a href="#navigation">2.4. Main navigation</a></li>
+							<li><a href="#cover-images">2.5. Cover images</a></li>
+							<li><a href="#archives">2.6. Archive types</a></li>
+							<li><a href="#disqus">2.7. Disqus comments</a></li>
+							<li><a href="#sidebar">2.8. Sidebar</a></li>
+						</ul>
+					</li>
+					<li><a href="#content">3. Content goodies</a>
+						<ul>
+							<li><a href="#content-photos">3.1. Photos</a></li>
+							<li><a href="#content-quotes">3.2. Quotes</a></li>
+							<li><a href="#content-buttons">3.3. Buttons</a></li>
+						</ul>
+					</li>
+					<li><a href="#credits">4. Credits</a></li>
+				</ul>
+			</nav>
+
+			<div class="spacer20"></div>
+			<p>&copy; Copyright by <a href="http://qbkl.net" target="_blank" title="QBKL Studio">QBKL</a>.</p>
+		</header>
+		<!-- End: Header -->
+
+		<!-- Start: Main -->
+		<main id="main">
+			<h2>Welcome to TYPE!</h2>
+
+			<p><strong>TYPE</strong> is a beautiful, bold <a href="https://ghost.org/" target="_blank">Ghost</a> blog theme. It features big visuals and enough flexibility to fit every need, every style.</p>
+
+			<p>We at <a href="http://qbkl.net" target="_blank" title="QBKL Studio">QBKL</a> thank you for the choice you have made by purchasing our product!</p>
+
+			<div class="alert alert-warning" role="alert">This is a not a WordPress theme and will not work if you try to use it as one.</div>
+
+			<section>
+				<h3 id="installation" class="page-header">1. Installation</h3>
+
+				<p>Installing <strong>TYPE</strong> is a very simple and straight forward job. Please consider the following:</p>
+
+				<h4 id="requirements">1.1. Requires Ghost</h4>
+
+				<p>In order to make use of this theme, you need to have the <a href="http://ghost.org">Ghost</a> blogging platform installed. It's a free platform built on Node.JS support. Check out the <a href="http://docs.ghost.org/">Ghost documentation</a>.</p>
+
+				<h4 id="guide">1.2. Installing the 'TYPE' theme</h4>
+
+				<p>Setting up the theme is a very easy job! Basically, all you have to do is to move (ONLY) the contents of the <code>_theme</code> folder to your server, inside your Ghost installation, inside the <code>ghost/content/themes/</code> folder.</p>
+
+				<p>We suggest customizing the <a href="#customization">theme settings and design</a> before uploading.</p>
+
+				<p>You can find more quality information about Ghost on their own site at <a href="http://support.ghost.org/user-guide/" target="_blank">Ghost Support and User Guide</a>.
+
+				<p class="go-top"><a href="#top">Back to top <i class="fa fa-angle-up"></i></a></p>
+			</section>
+
+			<section>
+				<h3 id="customization">2. Customization</h3>
+
+				<p>Customizing TYPE is not really rocket science. Let's have a look at things:</p>
+
+				<h4 id="color-themes">2.1. Color themes</h4>
+
+				<p>Type comes pre-packed with 9 color schemes. One default theme, 4 additional color/gradient schemes based on the seasons of the year and 4 monochrome themes in dark or light shades.</p>
+
+				<p>Open the <code>default.hbs</code> file. Simply adding a class to the BODY tag like so: <code>&lt;body class="{{body_class}} theme-summer"></code> tag will change the color scheme. Do not remove the <code>{{body_class}}</code> helper. It is very important to the theme's styling. You don't need to add anything for the default theme.</p>
+
+				<p>Here is a list of all the available color theme classes:</p>
+
+				<div class="row">
+					<div class="col-md-6">
+						<ul>
+							<li>theme-spring</li>
+							<li>theme-summer</li>
+							<li>theme-autumn</li>
+							<li>theme-winter</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<ul>
+							<li>theme-mono-light</li>
+							<li>theme-mono-dark</li>
+							<li>theme-white</li>
+							<li>theme-black</li>
+						</ul>
+					</div>
+				</div>
+
+				<p>If you decide to go for the <code>theme-mono-light</code> or <code>theme-white</code>, you'll also need to switch to dark fonts for better contrast in all the theme's heroes. You'll find all of them in the <code>partials/heroes</code> folder. Open them and replace every instance of <strong><em>light-font</em></strong> with <strong><em>dark-font</em></strong>.
+
+				<h4 id="custom-logo">2.2. Custom logo</h4>
+
+				<p>Adding your own blog logo is done simply by editing the settings of your Ghost installation under the <code>Setting/General</code> tab.</p>
+
+				<h4 id="author-info">2.3. Adjusting the author information</h4>
+
+				<p>Adjusting the author image, cover photo and information is done simply by editing the settings of your Ghost installation under the <code>Setting/User</code> tab.</p>
+
+				<p>We only display the author's description, website - if available and cover photo in the author's archive page's hero. On posts, only the author's name is displayed and linked to their archive.</p>
+
+				<h4 id="navigation">2.4. Main navigation</h4>
+
+				<p>The theme's main navigation is located in the <code>partials/page-header.hbs</code> partial. Locate the following and adjust to your needs:</p>
+
+				<pre class="prettyprint linenums:11">&lt;nav id="nav">
+	&lt;ul class="clearfix">
+		&lt;li>&lt;a href="{{@blog.url}}">Home&lt;/a>&lt;/li>
+		&lt;li>&lt;a href="/about-type/">About&lt;/a>&lt;/li>
+		&lt;li>&lt;a href="#">Purchase&lt;/a>&lt;/li>
+	&lt;/ul>
+&lt;/nav></pre>
+
+				<div class="alert alert-warning" role="alert">Do not edit the mobile nav elements. The mobile navigation will be generated automatically based on the main navigation.</div>
+
+				<h4 id="cover-images">2.5. Cover images</h4>
+
+				<p>Every cover image that you add, be it blog cover image, post cover image or author cover image, it will be used in the blog's home hero, post's hero or author's hero.</p>
+
+				<h4 id="archives">2.6. Archive types</h4>
+
+				<p>For more flexibility, we've included 4 display types for your posts' archives:</p>
+
+				<ul>
+					<li>Single column, full width list - <em>posts-list.hbs</em></li>
+					<li>Single column list with sidebar - <em>posts-sidebar.hbs</em></li>
+					<li>Two-columns grid - <em>posts-duogrid.hbs</em></li>
+					<li>Three-columns grid - <em>posts-triogrid.hbs</em></li>
+				</ul>
+
+				<p>All 4 archive type files can be found in the <code>partials/archives</code> folder. These files are loaded into the main archive type templates of the theme:</p>
+
+				<ul>
+					<li>home.hbs</li>
+					<li>index.hbs</li>
+					<li>tag.hbs</li>
+					<li>author.hbs</li>
+				</ul>
+
+				<p>The way the theme has been split in such partial files allows you to set up different display styles for homepage, general archive, tag and authors and thus offers more flexibility to the theme.</p>
+
+				<h4 id="disqus">2.7. Disqus comments</h4>
+
+				<p>Disqus comments are displayed at the bottom of every post. The embeded Disqus code can be found in the <code>partials/post-comments.hbs</code> file.</p>
+
+				<p>In order to setup Disqus, you'll need to open the <code>assets/js/custom.scripts.js</code> file and locate the following lines at the beginning of the file:</p>
+
+				<pre class="prettyprint linenums:11">var disqusComments = true;			// Set to false to hide comments
+var disqusUser = 'yourdisqus_shortname';	// Set to your own Disqus Shortname</pre>
+
+				<p>Replace <strong><em>yourdisqus_shortname</em></strong> with the shortname provided by <a href="http://disqus.com/">Disqus.com</a> after you've registered and added your website. Set the <strong>disqusComments</strong> variable to <strong><em>false</em></strong> if you wish to disable the comments.</p>
+
+				<h4 id="sidebar">2.8. Sidebar</h4>
+
+				<p>The theme include a sidebar template - <code>sidebar.hbs</code> - which in turn loads the currently avaialble widget partials from <code>partials/widgets</code>:</p>
+
+				<ul>
+					<li>About - <em>widget-about.hbs</em></li>
+					<li>Must read list - <em>widget-must-read.hbs</em></li>
+					<li>Sidebar menu - <em>widget-side-menu.hbs</em></li>
+					<li>Dribbble shots - <em>widget-dribbble.hbs</em></li>
+				</ul>
+
+				<p>Width the exception of the Dribbble widget, these "widgets" are currently HTML based and thus, they require manual editing. As soon as Ghost will offer a way to manage the widgets dynamically from the dashboard, we will implement such management.</p>
+
+				<p>Let's have a look at how the widgets are loaded:</p>
+
+				<pre class="prettyprint linenums">&lt;div id="sidebar" class="col-sm-4 col-lg-4 col-lg-offset-1" role="complementary">
+
+	{{> widgets/widget-about}}
+
+	{{> widgets/widget-must-read}}
+
+	{{> widgets/widget-side-menu}}
+
+	{{> widgets/widget-dribbble}}
+
+&lt;/div></pre>
+
+				<p>If you'd like to stop loading one of the widgets, you cad obviously delete the line loading it or simply comment it with a simple <strong><em>!</em></strong> sign, like so:</p>
+
+				<pre class="prettyprint">{{!> widgets/widget-must-read}}</pre>
+
+				<h5 id="side-dribbble">2.8.1. Dribbble widget</h5>
+
+				<p>The Dribbble shots widget is a fully automated widget that pulls the latest shosts based on a few variables that you need to setup in the <code>assets/js/custom.scrips.js</code> file, at the beginning:</p>
+
+				<pre class="prettyprint linenums:7">var dribbbleWidget = true;	// Set to false to hide widget
+var dribbbleUser = 'Username';	// Set to your own Dribbble username
+var dribbbleMaxShots = 6;	// Adjust the number of shots display. Even numbers.</pre>
+
+			</section>
+
+			<section>
+				<h3 id="content">3. Content goodies</h3>
+
+				<p>We've included in the theme some special styling that allows you to create beautiful quotes, add floated images and more elements. Let's have a look at these elements:</p>
+
+				<h4 id="content-photos">3.1. Photos</h4>
+
+				<p>Besides the regular way to include photos in Ghost, we've included a way to float images to the left, right or make the really wide, extending beyond the size of the container. These effects are best visible in the no-sidebar post and page displays.</p>
+
+				<pre class="prettyprint">&lt;div class="pull-left">&lt;img src="image_url_here.jpg" alt="">&lt;/div></pre>
+
+				<p>This pulls the image to the left.</p>
+
+				<pre class="prettyprint">&lt;div class="pull-right">&lt;img src="image_url_here.jpg" alt="">&lt;/div></pre>
+
+				<p>This pulls the image to the right.</p>
+
+				<pre class="prettyprint">&lt;div class="wide">&lt;img src="image_url_here.jpg" alt="">&lt;/div></pre>
+
+				<p>This forces a really wide image.</p>
+
+				<p>Add the <code>mono</code> class to force images to load in black and white.</p>
+
+				<p>To get the photo image URL, load the image as you normally would via Ghost's editor, then copy its URL for the auto-generated markdown.</p>
+
+				<pre class="prettyprint">![Alt image title here](image_url_here.jpg)</pre>
+
+				<h4 id="content-quotes">3.2. Quotes</h4>
+
+				<p>Similar to floated images, you can add left or right pulled quotes. The default quote style, the one added via Ghost's markdown, is wide.</p>
+
+				<pre class="prettyprint">&lt;blockquote class="pull-left">Quote text here&lt;/blockquote></pre>
+
+				<pre class="prettyprint">&lt;blockquote class="pull-right">Quote text here&lt;/blockquote></pre>
+
+				<p>The above examples will create a left pulled quoted (first) or a right pulled quote (second).</p>
+
+				<h4 id="content-buttons">3.3. Buttons</h4>
+
+				<p>Adding a button means creating an HTML link with the added class <code>button</code>:</p>
+
+				<pre class="prettyprint">&lt;a href="#" class="button">Button&lt;/a></pre>
+			</section>
+
+			<section>
+				<h3 id="credits">4. Credits</h3>
+
+				<p>We at QBKL would like to extend our thanks to the <a href="https://ghost.org" target="_blank">Ghost</a> platform team, <a href="https://unsplash.com/ugmonk/grid" target="_blank">Jeff Sheldon &amp; Unsplash.com</a> for their amazing images and the creator of <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a> for the beautiful iconic font.</p>
+
+				<p>Last but not least, thank you for placing your trust in our product and purchasing it, thus helping and encouraging us to create more and more beautiful and useful products!</p>
+
+				<p>Best wishes,<br>
+				The QBKL Studio Team</p>
+
+				<p>Check out QBKL on: <a href="http://bit.ly/qbkl-tf" target="_blank">ThemeForest</a>, <a href="https://www.facebook.com/QBKLstudio" target="_blank">Facebook</a>, <a href="https://twitter.com/QBKL" target="_blank">Twitter</a>, <a href="https://dribbble.com/qbkl" target="_blank">Dribbble</a> and <a href="http://www.pinterest.com/qbkl/" target="_blank">Pinterest</a>.</p>
+			</section>
+		</main>
+		<!-- End: Main -->
+
+		<script src="assets/js/jquery-1.11.1.min.js"></script>
+		<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/prettify/prettify.js"></script>
+		<script src="assets/js/jquery.scrollto.min.js"></script>
+		<script src="assets/js/jquery.localScroll.min.js"></script>
+		<script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+		<script src="assets/js/venobox/venobox.min.js" type="text/javascript"></script>
+
+		<script>
+		(function($) {
+			"use strict";
+			$.localScroll();
+		})(jQuery);
+		</script>
+	</body>
+</html>

@@ -20,7 +20,7 @@ content/*
 content/themes/*
 !/content/themes/
 
-content/themes/yourtheme/*
-!/content/themes/yourtheme/
+content/themes/type-theme/*
+!/content/themes/type-theme/
 
-!/content/themes/yourtheme/*
+!/content/themes/type-theme/*

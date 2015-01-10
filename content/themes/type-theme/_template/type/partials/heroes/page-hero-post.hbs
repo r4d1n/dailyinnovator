@@ -1,0 +1,16 @@
+{{#post}}
+
+{{#if image}}
+<section id="hero" class="post-hero color-bg image-bg light-font" style="background-image: url({{image}});">
+{{else}}
+<section id="hero" class="post-hero gradient-bg light-font">
+{{/if}}
+	<div class="hero-content">
+		<div class="container">
+			<h1 class="hero-title">{{title}}</h1>
+			<p class="hero-post-info">{{#if featured}}<i class="fa fa-star"></i>{{/if}}<time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="MMM DD, YYYY"}}</time> {{#author}}<span>by</span> <a href="{{url}}" title="{{name}}">{{name}}</a>{{/author}} {{#if tags}}&bull; {{tags}}{{/if}}</p>
+		</div>
+	</div>
+</section>
+
+{{/post}}
