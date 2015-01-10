@@ -11,6 +11,57 @@ Type Theme for Ghost - Color Themes
 8. Theme: Black
 */
 
+
+/* Daily Innovator theme based on Mono Dark */
+
+.theme-daily-innovator .gradient-bg {
+	background: #1F0578;
+	background: -moz-linear-gradient(-45deg,#1F0578 0%,#300ab2 100%);
+	background: -webkit-gradient(left top,right bottom,color-stop(0%,#1F0578),color-stop(100%,#300ab2));
+	background: -webkit-linear-gradient(-45deg,#1F0578 0%,#300ab2 100%);
+	background: -o-linear-gradient(-45deg,#1F0578 0%,#300ab2 100%);
+	background: -ms-linear-gradient(-45deg,#1F0578 0%,#300ab2 100%);
+	background: linear-gradient(135deg,#1F0578 0%,#300ab2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1F0578',endColorstr='#300ab2',GradientType=1);
+}
+.theme-daily-innovator .color-bg {
+	background-color: #1F0578;
+}
+.theme-daily-innovator a.link::after,
+.theme-daily-innovator #nav > ul > li > a::after,
+.theme-daily-innovator .post-info::after,
+.theme-daily-innovator .post-content .read-more:hover,
+.theme-daily-innovator .widget-title::after,
+.theme-daily-innovator .social-button:hover {
+	background-color: #76db1f;
+}
+.theme-daily-innovator .post-info .fa-star {
+	color: #76db1f;
+}
+
+.theme-daily-innovator #hero.dark-font,
+.theme-daily-innovator #hero.dark-font .hero-title,
+.theme-daily-innovator #hero.dark-font h1,
+.theme-daily-innovator #hero.dark-font h2,
+.theme-daily-innovator #hero.dark-font h3,
+.theme-daily-innovator #hero.dark-font a,
+.theme-daily-innovator #hero.dark-font .hero-post-info .fa,
+.theme-daily-innovator #hero.light-font,
+.theme-daily-innovator #hero.light-font .hero-title,
+.theme-daily-innovator #hero.light-font h1,
+.theme-daily-innovator #hero.light-font h2,
+.theme-daily-innovator #hero.light-font h3,
+.theme-daily-innovator #hero.light-font a,
+.theme-daily-innovator #hero.dark-font .hero-post-info .fa {
+	color: #fff;
+}
+
+.theme-daily-innovator #hero.dark-font .hero-content a::after,
+.theme-daily-innovator #hero.light-font .hero-content a::after {
+	background-color: #fff;
+}
+
+
 /* 1. Theme: Spring */
 
 .theme-spring .gradient-bg {
