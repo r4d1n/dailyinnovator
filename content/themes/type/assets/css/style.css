@@ -1148,7 +1148,7 @@ input[type="submit"]:hover {
 }
 
 .sidebar-menu li li::before {
-	content: '\2014';
+	content: '\2015';
 	padding-right: 10px;
 }
 
