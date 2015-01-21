@@ -41,7 +41,7 @@ html, body {
 body {
 	margin: 0 auto;
 	padding: 0;
-	font-family: 'Roboto', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+	font-family: 'din-condensed-web', 'Helvetica', Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.6;
 	color: #666;
@@ -166,7 +166,7 @@ a.link:hover:after {
 	width: 100%;
 }
 
-h1, h2, h3, 
+h1, h2, h3,
 .h1, .h2, .h3 {
 	margin-top: 30px;
 	margin-bottom: 20px;
@@ -198,7 +198,7 @@ blockquote {
 	margin-bottom: 40px;
 	padding: 30px 0;
 	border: 0;
-	font-family: 'PT Serif', Georgia, serif;
+	font-family: 'din-condensed-web', 'Helvetica', Arial, sans-serif;
 	font-size: 24px;
 	font-style: italic;
 	color: #222;
@@ -228,7 +228,7 @@ blockquote a:hover {
 }
 
 blockquote footer {
-	font-family: 'Incosolata', monospace;
+	font-family: "chaparral-pro-subhead",sans-serif;;
 	font-size: 14px;
 	font-style: normal;
 	text-transform: uppercase;
@@ -482,7 +482,7 @@ blockquote footer::before {
 
 .hero-post-info .fa-star::after {
 	content: '\00a0\2022\00a0';
-	font-family: 'Incosolata', monospace;
+	font-family: "chaparral-pro-subhead",sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 }
@@ -587,7 +587,7 @@ blockquote footer::before {
 .post-info {
 	position: relative;
 	padding-top: 31px;
-	font-family: 'Incosolata', monospace;
+	font-family: "chaparral-pro-subhead", sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 	color: #888;
@@ -613,7 +613,7 @@ blockquote footer::before {
 
 .post-info .fa-star::after {
 	content: '\00a0\2022\00a0';
-	font-family: 'Incosolata', monospace;
+	font-family: "chaparral-pro-subhead", sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 	color: #888;
@@ -745,7 +745,7 @@ blockquote footer::before {
 .post-content .read-more {
 	display: inline-block;
 	padding: 10px 15px;
-	font-family: 'Incosolata', monospace;
+	font-family: "chaparral-pro-subhead", sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -809,7 +809,7 @@ blockquote footer::before {
 
 .post-hero .hero-post-info {
 	margin: 20px 0 0 0;
-	font-family: 'Incosolata', monospace;
+	font-family: 'din-condensed-web', 'Helvetica', Arial, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -888,7 +888,7 @@ blockquote footer::before {
 
 .post-content .social-profiles li:last-child {
 	margin-left: 10px;
-	font-family: 'Incosolata', monospace;
+	font-family: "chaparral-pro-subhead", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -939,7 +939,7 @@ textarea:focus {
 
 label {
 	display: block;
-	font-family: 'Incosolata', monospace;
+	font-family: "chaparral-pro-subhead", sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
@@ -951,7 +951,7 @@ input[type="button"],
 input[type="submit"] {
 	display: inline-block;
 	padding: 10px 15px;
-	font-family: 'Incosolata', monospace;
+	font-family: 'din-condensed-web', 'Helvetica', Arial, sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	text-decoration: none!important;
@@ -991,7 +991,7 @@ input[type="submit"]:hover {
 	display: block;
 	clear: both;
 	overflow: hidden;
-	font-family: 'Incosolata', monospace;
+	font-family: 'din-condensed-web', 'Helvetica', Arial, sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 }
@@ -1157,37 +1157,11 @@ input[type="submit"]:hover {
 	padding: 7px 0;
 }
 
-/* 5.4. Dribbble Shots */
-
-#dribbble-widget ul {
-	margin-top: 10px;
-	padding: 0;
-}
-
-#dribbble-widget li {
-	font-family: 'Incosolata', monospace;
-	font-size: 11px;
-	text-transform: uppercase;
-}
-
-#dribbble-widget ul,
-#dribbble-widget li {
-	list-style-type: none;
-}
-
-.dribbble-title {
-	display: block;
-	margin: 5px 0 15px 0;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
 /* 6. Footer */
 
 #footer {
 	padding: 40px 0;
-	font-family: 'Incosolata', monospace;
+	font-family: 'din-condensed-web', 'Helvetica', Arial, sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 }
@@ -1205,6 +1179,7 @@ input[type="submit"]:hover {
 		font-size: 48px;
 	}
 }
+
 
 @media only screen and (max-width: 1024px) {
 	.container { max-width: 90%; }
@@ -1236,6 +1211,7 @@ input[type="submit"]:hover {
 		margin-top: 20px;
 	}
 }
+
 
 @media only screen and (max-width: 768px) {
 
@@ -1425,6 +1401,7 @@ input[type="submit"]:hover {
 		max-width: 40%;
 	}
 }
+
 
 @media screen and (max-device-width: 1024px) {
 	#header,
