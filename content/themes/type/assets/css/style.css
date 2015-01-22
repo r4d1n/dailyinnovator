@@ -243,7 +243,7 @@ blockquote footer::before {
 /* 2. Header */
 
 #header {
-	height: 100px;
+	/*height: 100px;*/
 	background-color: #fff;
 	background-image: url(../img/header-lines.png);
 	background-repeat: no-repeat;
@@ -1167,6 +1167,7 @@ input[type="submit"]:hover {
 }
 
 #footer > .container > *:last-child { margin-bottom: 0; }
+
 
 /* 7. Media Queries */
 
