@@ -15,3 +15,6 @@ content/themes/type/*
 !/content/themes/type/
 
 !/content/themes/type/*
+
+content/themes/type/npm-debug.log
+*.swp
