@@ -41,7 +41,7 @@ html, body {
 body {
   margin: 0 auto;
   padding: 0;
-  font-family: 'din-condensed-web', sans-serif;
+  font-family: 'brandon-grotesque', sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: #666;
@@ -198,7 +198,7 @@ blockquote {
   margin-bottom: 40px;
   padding: 30px 0;
   border: 0;
-  font-family: 'din-condensed-web', sans-serif;
+  font-family: 'brandon-grotesque', sans-serif;
   font-size: 24px;
   font-style: italic;
   color: #222;
@@ -228,7 +228,7 @@ blockquote a:hover {
 }
 
 blockquote footer {
-  font-family: 'Incosolata', monospace;
+  font-family: "anonymous-pro", monospace;
   font-size: 14px;
   font-style: normal;
   text-transform: uppercase;
@@ -291,6 +291,7 @@ blockquote footer::before {
 
 #nav {
   float: left;
+  font-family: 'din-condensed-web', sans-serif;
 }
 
 #nav > ul {
@@ -302,6 +303,7 @@ blockquote footer::before {
 }
 
 #nav > ul > li {
+  font-family: 'din-condensed-web', sans-serif;
   display: inline-block;
   font-size: 16px;
   padding-left: 20px;
@@ -309,6 +311,7 @@ blockquote footer::before {
 }
 
 #nav > ul > li > a {
+  font-family: 'din-condensed-web', sans-serif;
   position: relative;
   display: inline-block;
   padding: 43px 0 33px;
@@ -482,7 +485,7 @@ blockquote footer::before {
 
 .hero-post-info .fa-star::after {
   content: '\00a0\2022\00a0';
-  font-family: 'Incosolata', monospace;
+  font-family: "anonymous-pro", monospace;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -587,7 +590,7 @@ blockquote footer::before {
 .post-info {
   position: relative;
   padding-top: 31px;
-  font-family: 'Incosolata', monospace;
+  font-family: "anonymous-pro", monospace;
   font-size: 12px;
   text-transform: uppercase;
   color: #888;
@@ -613,7 +616,7 @@ blockquote footer::before {
 
 .post-info .fa-star::after {
   content: '\00a0\2022\00a0';
-  font-family: 'Incosolata', monospace;
+  font-family: "anonymous-pro", monospace;
   font-size: 12px;
   text-transform: uppercase;
   color: #888;
@@ -745,7 +748,7 @@ blockquote footer::before {
 .post-content .read-more {
   display: inline-block;
   padding: 10px 15px;
-  font-family: 'Incosolata', monospace;
+  font-family: "anonymous-pro", monospace;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
@@ -888,7 +891,7 @@ blockquote footer::before {
 
 .post-content .social-profiles li:last-child {
   margin-left: 10px;
-  font-family: 'Incosolata', monospace;
+  font-family: "anonymous-pro", monospace;
   text-transform: uppercase;
 }
 
@@ -939,7 +942,8 @@ textarea:focus {
 
 label {
   display: block;
-  font-family: 'Incosolata', monospace;
+  font-family: "anonymous-pro", monospace;
+
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 10px;
