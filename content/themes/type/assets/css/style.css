@@ -291,7 +291,6 @@ blockquote footer::before {
 
 #nav {
   float: left;
-  font-family: 'din-condensed-web', sans-serif;
 }
 
 #nav > ul {
@@ -303,7 +302,6 @@ blockquote footer::before {
 }
 
 #nav > ul > li {
-  font-family: 'din-condensed-web', sans-serif;
   display: inline-block;
   font-size: 16px;
   padding-left: 20px;
@@ -311,14 +309,20 @@ blockquote footer::before {
 }
 
 #nav > ul > li > a {
-  font-family: 'din-condensed-web', sans-serif;
   position: relative;
   display: inline-block;
   padding: 43px 0 33px;
   line-height: 24px;
+  width: 100%;
+  text-decoration: none;
 }
 
 #nav > ul > li > a:hover {
+  color: #aaa;
+  text-decoration: none;
+}
+
+#nav > ul > li > a:active {
   color: #aaa;
   text-decoration: none;
 }
