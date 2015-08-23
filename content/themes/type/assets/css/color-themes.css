@@ -15,17 +15,17 @@ Type Theme for Ghost - Color Themes
 /* Daily Innovator theme based on Mono Dark */
 
 .theme-daily-innovator .gradient-bg {
-	background: #1F0578;
-	background: -moz-linear-gradient(-45deg,#1F0578 0%,#300ab2 100%);
-	background: -webkit-gradient(left top,right bottom,color-stop(0%,#1F0578),color-stop(100%,#300ab2));
-	background: -webkit-linear-gradient(-45deg,#1F0578 0%,#300ab2 100%);
-	background: -o-linear-gradient(-45deg,#1F0578 0%,#300ab2 100%);
-	background: -ms-linear-gradient(-45deg,#1F0578 0%,#300ab2 100%);
-	background: linear-gradient(135deg,#1F0578 0%,#300ab2 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1F0578',endColorstr='#fdfdfd',GradientType=1);
+	background: #9fbb58;
+	background: -moz-linear-gradient(-45deg,#9fbb58 0%,#9fbb58 100%);
+	background: -webkit-gradient(left top,right bottom,color-stop(0%,#9fbb58),color-stop(100%,#9fbb58));
+	background: -webkit-linear-gradient(-45deg,#9fbb58 0%,#9fbb58 100%);
+	background: -o-linear-gradient(-45deg,#9fbb58 0%,#9fbb58 100%);
+	background: -ms-linear-gradient(-45deg,#9fbb58 0%,#9fbb58 100%);
+	background: linear-gradient(135deg,#9fbb58 0%,#9fbb58 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9fbb58',endColorstr='#9fbb58',GradientType=1);
 }
 .theme-daily-innovator .color-bg {
-	background-color: #1F0578;
+	background-color: #9fbb58;
 }
 .theme-daily-innovator a.link::after,
 .theme-daily-innovator #nav > ul > li > a::after,
@@ -33,10 +33,10 @@ Type Theme for Ghost - Color Themes
 .theme-daily-innovator .post-content .read-more:hover,
 .theme-daily-innovator .widget-title::after,
 .theme-daily-innovator .social-button:hover {
-	background-color: #76db1f;
+	background-color: #1F0578;
 }
 .theme-daily-innovator .post-info .fa-star {
-	color: #76db1f;
+	color: #1F0578;
 }
 
 .theme-daily-innovator #hero.dark-font,
